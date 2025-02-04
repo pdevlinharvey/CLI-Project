@@ -3,8 +3,8 @@ require '/workspaces/CLI-Project/library.rb'
 
 class TestChessLibrary < Minitest::Test
   def setup
-    @library = Library.new  # Ensure this matches your actual class name
-    @library.instance_variable_set(:@openings, [])  # Initialize openings as empty
+    @library = Library.new
+    @library.instance_variable_set(:@openings, [])
   end
 
   def test_list_openings_with_no_openings
