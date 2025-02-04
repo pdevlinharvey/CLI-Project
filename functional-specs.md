@@ -13,7 +13,7 @@ The openings CLI app provides users with a simple, command-line interface to sto
 ### Functional Requirements
 - The app must prompt the user if they'd like to add or recall openings. 
 - The app must prompt the user for the name, color, and move order of the opening.
-- The app must provide positive feedback after input and allow continued used.
+- The app must provide positive feedback after input and allow continued use.
 - The app must list all the openings when prompted by the user. 
 - The app must list a specific opening when prompted by the user. 
-- The app must direct the user to input an opening, if the user prompts the app to list openings when none are stored. 
+- The app must direct the user to input an opening, if the user prompts the app to list all openings when none are stored. 
