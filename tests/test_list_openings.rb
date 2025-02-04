@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require '/workspaces/CLI-Project/library.rb'
+require_relative '/workspaces/CLI-Project/library.rb'
 
 class TestChessLibrary < Minitest::Test
   def setup
